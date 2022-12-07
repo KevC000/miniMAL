@@ -17,13 +17,11 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.unit.dp
-import androidx.compose.ui.unit.sp
 import androidx.navigation.NavController
 import com.yonasoft.minimal.navigation.Screen
 import com.yonasoft.minimal.network.MALAuth.Companion.authUri
 import com.yonasoft.minimal.ui.theme.Blue1
 import com.yonasoft.minimal.ui.theme.Blue2
-
 
 @Composable
 fun LoginRequestScreen(navController: NavController) {
